@@ -1,10 +1,11 @@
+<?php include($root.'/config.php');?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <base href="http://www.xn---245-u5dsm.xn--p1ai/">
+    <base href="<?php echo HTTP_SERVER;?>">
     <title><?php echo $title; ?></title>
     <meta name="description" content="<?php echo $description; ?>" />
     <meta name="keywords" content="<?php echo $keywords; ?>" />
