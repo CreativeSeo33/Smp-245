@@ -9,7 +9,7 @@
     <title><?php echo $title; ?></title>
     <meta name="description" content="<?php echo $description; ?>" />
     <meta name="keywords" content="<?php echo $keywords; ?>" />
-
+    <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 	<!-- Bootstrap -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
