@@ -522,9 +522,9 @@ background: linear-gradient(to right, #050a10 0%,#0d1e32 67%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#050a10', endColorstr='#0d1e32',GradientType=1 ); /* IE6-9 */
 }
 /* table */
-table td{border: 5px solid #fff;}
-tbody>tr:nth-child(odd) td{background-color: #f7f6f3;}
-tbody>tr:nth-child(even) td{background-color: #ced5da;}
+.table td{border: 5px solid #fff;}
+.table tbody>tr:nth-child(odd) td{background-color: #f7f6f3;}
+.table tbody>tr:nth-child(even) td{background-color: #ced5da;}
 /* Back To Top */
 .cd-top {
   display: inline-block;
