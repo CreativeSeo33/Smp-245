@@ -35,26 +35,26 @@
       <a class="dropdown-toggle visible-xs visible-sm" data-toggle="dropdown" href="javascript:void(0);">Строительство <span class="caret"></span></a>
       <a class="dropdown-toggle hidden-xs hidden-sm" href="javascript:void(0);">Строительство <span class="caret"></span></a>
           <ul class="dropdown-menu text-dropdown-menu" role="menu">
-          <li><a href="http://www.xn---245-u5dsm.xn--p1ai/zabivka-svay/">Сваебойные работы</a></li>
-            <li><a href="http://www.xn---245-u5dsm.xn--p1ai/grazhdanskoe-stroitelstvo/">Гражданское строительство</a></li>
-			<li><a href="http://www.xn---245-u5dsm.xn--p1ai/promyshlennoe-stroitelstvo/">Промышленное строительство</a></li>
-			<li><a href="http://www.xn---245-u5dsm.xn--p1ai/zheleznodorozhnoe-stroitelstvo/">Железнодорожное строительство</a></li>
+          <li><a href="<?php echo HTTP_SERVER;?>zabivka-svay/">Сваебойные работы</a></li>
+            <li><a href="<?php echo HTTP_SERVER;?>grazhdanskoe-stroitelstvo/">Гражданское строительство</a></li>
+			<li><a href="<?php echo HTTP_SERVER;?>promyshlennoe-stroitelstvo/">Промышленное строительство</a></li>
+			<li><a href="<?php echo HTTP_SERVER;?>zheleznodorozhnoe-stroitelstvo/">Железнодорожное строительство</a></li>
 			
           </ul>
         </li>
-        <li><a href="http://www.xn---245-u5dsm.xn--p1ai/arenda-spectehniki/"><span>Аренда спецтехники</span></a></li>
+        <li><a href="<?php echo HTTP_SERVER;?>arenda-spectehniki/"><span>Аренда спецтехники</span></a></li>
 
-        <li><a href="http://www.xn---245-u5dsm.xn--p1ai/objects/" id="one"><span>Объекты</span></a></li>
+        <li><a href="<?php echo HTTP_SERVER;?>objects/" id="one"><span>Объекты</span></a></li>
 		<li class="dropdown">
       <a class="dropdown-toggle visible-xs visible-sm" data-toggle="dropdown" href="javascript:void(0);">Лицензии <span class="caret"></span></a>
       <a class="dropdown-toggle hidden-xs hidden-sm" href="javascript:void(0);">Лицензии <span class="caret"></span></a>
 		  <ul class="dropdown-menu text-dropdown-menu" role="menu">
-            <li><a href="http://www.xn---245-u5dsm.xn--p1ai/licenses/smp245/">СМП-245</a></li>
-			<li><a href="http://www.xn---245-u5dsm.xn--p1ai/licenses/smp245-energy/">СМП-245 Энерго</a></li>
-			<li><a href="http://www.xn---245-u5dsm.xn--p1ai/licenses/" target="_blank">ЦПОиР</a></li>
+            <li><a href="<?php echo HTTP_SERVER;?>licenses/smp245/">СМП-245</a></li>
+			<li><a href="<?php echo HTTP_SERVER;?>licenses/smp245-energy/">СМП-245 Энерго</a></li>
+			<li><a href="<?php echo HTTP_SERVER;?>licenses/" target="_blank">ЦПОиР</a></li>
           </ul>
 		</li>
-        <li><a href="http://www.xn---245-u5dsm.xn--p1ai/contacts/"><span>Контакты</span></a></li>
+        <li><a href="<?php echo HTTP_SERVER;?>contacts/"><span>Контакты</span></a></li>
         <li><a href="http://xn--h1alcg0a.xn--p1ai/" rel="nofollow" target="_blank"><span>Проектные работы</span></a></li>   
        </ul> 
     </div>

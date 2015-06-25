@@ -1,8 +1,9 @@
 <?php $title = 'Контакты - СМП 245'; ?>
 <?php $description = ''; ?>
 <?php $keywords = ''; ?>
-<?php include("../blocks/meta.php"); ?>
-<?php include("../blocks/header.php"); ?>
+<?php $root = $_SERVER['DOCUMENT_ROOT'];
+include("../blocks/meta.php");
+include("../blocks/header.php"); ?>
 
 <article>
 <div class="container">
