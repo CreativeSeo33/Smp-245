@@ -6,23 +6,23 @@ $root = $_SERVER['DOCUMENT_ROOT'];
 include($root."/blocks/meta.php");
 include($root."/blocks/header.php");
 $array = json_decode('[
-{"h2":"Машины для земляных работ", "table":[
-{"name":"Экскаватор ДЭМ-114",
+{"h2":"Машины для земляных работ","href":"mashiny-dlya-zemlyanyh-rabot","table":[
+{"name":"Экскаватор ДЭМ-114","href":"ekskavator-dem-114",
 "info":"Ёмкость ковша отвала 1 м3, ёмкость ковша копания 0,35 м3, глубина копания 3,7 м. Масса 6,7 т.",
 "cost":"1110"},
-{"name":"Гидромолот на базе экскаватора ДЭМ-114",
+{"name":" &mdash; Гидромолот на базе экскаватора ДЭМ-114",
 "info":"",
 "cost":"1390"},
-{"name":"Гидробур(гл. до 3 м, 0 до 350 мм) на базе экскаватора ДЭМ-114",
+{"name":" &mdash; Гидробур(гл. до 3 м, 0 до 350 мм) на базе экскаватора ДЭМ-114",
 "info":"Диаметр рабочей части 0 300 мм, глубина бурения до 2,7 м.",
 "cost":"1390"},
-{"name":"Экскаватор HYUNDAI R170W-7",
+{"name":"Экскаватор HYUNDAI R170W-7","href":"ekskavator-hyundai-r170w-7",
 "info":"Ёмкость ковша 0,76 м3, глубина копания 5,8 м. Масса 17 т.",
 "cost":"1630"},
-{"name":"Гидромолот на базе экскаватора HYUNDAI R170W-7",
+{"name":" &mdash; Гидромолот на базе экскаватора HYUNDAI R170W-7",
 "info":"",
 "cost":"1850"},
-{"name":"Виброплита на базе экскаватора HYUNDAI R170W-7",
+{"name":" &mdash; Виброплита на базе экскаватора HYUNDAI R170W-7",
 "info":"",
 "cost":"1850"},
 {"name":"Экскаватор ЭО-4225",
@@ -143,7 +143,11 @@ $array = json_decode('[
 		<tbody>
 	<?php foreach($row['table'] as $table) { ?>
 			<tr>
-				<td><?php echo $table['name'];?></td>
+				<td>
+		<?php if (isset($table['href'])) {echo '<a href="'.HTTP_SERVER.$row['href'].'/'.$table['href'].'">';}
+		echo $table['name'];
+		if (isset($table['href'])) {echo '</a>';} ?>
+				</td>
 				<td><?php echo $table['info'];?></td>
 				<td><?php echo $table['cost'];?></td>
 			</tr>

@@ -553,9 +553,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#050a10', end
 .cd-top.cd-is-visible {visibility: visible;opacity: 1;}
 .cd-top.cd-fade-out {opacity: .5;}
 .no-touch .cd-top:hover {background-color: #e86256;opacity: 1;}
+/* blocks/img */
+.img>div{margin-bottom:1px;padding:2px; height:174px; overflow:hidden;}
+
 @media only screen and (min-width: 768px) {
+  .img>div{height:200px;}
   .cd-top {right: 20px;bottom: 20px;}
 }
 @media only screen and (min-width: 1024px) {
+  .img>div{height:158px;}
   .cd-top {height: 60px;width: 60px;right: 30px;bottom: 30px;}
 }
