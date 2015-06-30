@@ -18,7 +18,10 @@ include($root."/blocks/header.php");?>
 				</tbody>
 			</table>
 <?php } ?>
-			<button class="btn btn-danger">Заказать аренду</button>
+		<div class="row">
+			<div class="col-md-7"><big>Цена за час работы:<nobr><strong style="color:red; font-size:1.5em"> <?php echo $array['cost'];?> руб.</strong></nobr></big></div>
+			<div class="col-md-5"><button class="btn btn-danger open-modal">Заказать аренду</button></div>
+		</div>
 		</div>	
 	</div>
 	<p style="margin-top:30px;"><?php echo $array['opisanie'];?></p>
