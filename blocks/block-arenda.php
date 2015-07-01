@@ -1,4 +1,5 @@
 <?php 
+$breadcrumbs_url = 'arenda-spectehniki';
 include($root."/blocks/meta.php");
 include($root."/blocks/header.php");?>
 
