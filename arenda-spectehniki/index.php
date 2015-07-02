@@ -42,7 +42,7 @@ include("array.php");
 		<table class="table">
 		<thead><tr>
 				<td width="30%">Наименование механизма, автомашины, марка</td>
-				<td>Характеристика механизма (грузоподъёмность, ёмкость ковша и др.)</td>
+				<td class="hidden-xs">Характеристика механизма (грузоподъёмность, ёмкость ковша и др.)</td>
 				<td width="15%">Цена за 1 м/час (с НДС 18%), руб.</td>
 		</tr></thead>
 		<tbody>
@@ -53,7 +53,7 @@ include("array.php");
 		echo $table['name'];
 		if (isset($table['href'])) {echo '</a>';} ?>
 				</td>
-				<td><?php echo $table['info'];?></td>
+				<td class="hidden-xs"><?php echo $table['info'];?></td>
 				<td><?php echo $table['cost'];?></td>
 			</tr>
 	<?php } ?>
