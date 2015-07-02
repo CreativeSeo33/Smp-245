@@ -44,13 +44,13 @@
 <a href="#0" class="cd-top">Top</a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.fancybox.js"></script>
-<script src="js/helpers/jquery.fancybox-thumbs.js"></script> 
-<script src="js/jquery.mousewheel-3.0.6.pack.js"></script>
-<script src="js/jquery.maskedinput.min.js"></script> 
-<script src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
-<script src="js/common.js"></script>
+<script src="<?php echo HTTP_SERVER;?>js/bootstrap.min.js"></script>
+<script src="<?php echo HTTP_SERVER;?>js/jquery.fancybox.js"></script>
+<script src="<?php echo HTTP_SERVER;?>js/helpers/jquery.fancybox-thumbs.js"></script> 
+<script src="<?php echo HTTP_SERVER;?>js/jquery.mousewheel-3.0.6.pack.js"></script>
+<script src="<?php echo HTTP_SERVER;?>js/jquery.maskedinput.min.js"></script> 
+<script src="<?php echo HTTP_SERVER;?>js/jquery.carouFredSel-6.1.0-packed.js"></script>
+<script src="<?php echo HTTP_SERVER;?>js/common.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!--<script src="js/bootstrap.min.js"></script>-->
        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
