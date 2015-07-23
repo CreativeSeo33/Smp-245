@@ -1,13 +1,12 @@
-<?php $title = 'Микроавтобусы';
-$description = '';
+<?php $title = 'Аренда гидромолота';
+$description = 'Применяется в качестве вспомогательного навесного оборудования при демонтажных работах, при работах с мерзлыми грунтами.';
 $keywords = '';
-$breadcrumb = 'Микроавтобусы';
+$breadcrumb = 'Аренда гидромолота';
 $text='<p>'.$description.'</p>';
 $array=json_decode('[
-{"name":"Микроавтобус Fiat DUCATO","url":"mikroavtobus-fiat-ducato"},
-{"name":"Газель ГАЗ-330232 (грузопассажирс.)","url":"gazel-gaz-330232"},
-{"name":"Газель ГАЗ-2834 (грузопассажирс.)","url":"gazel-gaz-2834"},
-{"name":"Соболь ГАЗ-2752 (грузопассажирс.)","url":"sobol-gaz-2752"}
+{"name":"Гидромолот на базе экскаватора ДЭМ-114","url":"ekskavator-dem-114"},
+{"name":"Гидробур на базе экскаватора ДЭМ-114","url":"ekskavator-dem-114"},
+{"name":"Гидромолот на базе экскаватора HYUNDAI R170W-7","url":"ekskavator-hyundai-r170w-7"}
 ]',true);
 include("../project.php"); ?>
 
